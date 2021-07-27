@@ -28,5 +28,3 @@ scrollElements.forEach((el) => {
   window.addEventListener('scroll', () => {
     handleScrollAnimation();
   });
-
-  console.log("file found")
