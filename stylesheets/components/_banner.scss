@@ -1,0 +1,26 @@
+.main-banner {
+
+    &__image {
+        height: 100vh;
+
+        &__content {
+            position: relative;
+            width: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(34,34,34,0.6);
+            padding: 40px;
+            color: white;
+            border-radius: $default-border-radius;
+            box-shadow: $default-box-shadow;
+            text-align: center;
+
+            p {
+                margin: 15px 0;
+            }
+        }
+    }
+
+   
+}

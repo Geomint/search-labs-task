@@ -1,0 +1,16 @@
+.form {
+    margin: auto;
+    max-width: 50%;
+    display: block;
+    font-size: 1.8rem;
+
+    &__group {
+        label {
+            display: block;
+        }
+
+        input {
+            width: 100%;
+        }
+    }
+}

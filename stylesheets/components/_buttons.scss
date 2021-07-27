@@ -1,0 +1,15 @@
+.btn {
+    padding: 15px 20px;
+    border-radius: $default-border-radius;
+    transition: all 0.2s ease-in-out;
+
+    &__primary {
+        background: $primary-brand-color;
+        color: white;
+
+        &:hover {
+            background: darken($primary-brand-color, 10%);
+            color: darken(white, 10%);
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    background-color: $primary-brand-color;
+    padding: 0 40px;
+    position: fixed;
+    box-shadow: $default-box-shadow;
+    z-index: 1;
+
+    &__logo {
+
+        &__link {
+
+            img {
+                max-width: 15%;
+            }
+        }
+    }
+
+    &__nav {
+        align-items: center;
+        display: flex;
+
+        &__list {
+            display: flex;
+            list-style: none;
+
+            &__item {
+                padding: 0 20px;
+                border-right: 1px solid white;
+
+                &:last-of-type {
+                    border: none;
+                }
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
