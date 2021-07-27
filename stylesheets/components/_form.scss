@@ -7,10 +7,20 @@
     &__group {
         label {
             display: block;
+            margin-top: 10px;
         }
 
         input {
             width: 100%;
+            margin-bottom: 10px;
+            box-shadow: $default-box-shadow;
+            border: none;
+            border-radius: $default-border-radius;
+            padding: 10px;
+        }
+
+        &__submit {
+            margin-top: 20px;
         }
     }
 }
