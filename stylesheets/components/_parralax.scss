@@ -23,7 +23,11 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;;
+        color: white;
+
+        @include breakpoint(xs) {
+            width: 100%;
+        }
 
         h2 {
             font-size: 5rem;

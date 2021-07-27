@@ -28,12 +28,22 @@
                 font-style: italic;
             }
         }
+
+        @include breakpoint(xs) {
+            margin-bottom: 15px;
+        }
     }
 
     &__cta {
         text-align: center;
         margin-top: 20px;
         margin-bottom: 45px;
+
+        @include breakpoint(xs) {
+            margin: auto;
+            margin-bottom: 15px;
+        }
+
     }
 
     &__usp {
@@ -56,5 +66,9 @@
         max-width: 50%;
         margin: auto;
         margin-bottom: 20px;
+
+        @include breakpoint(xs) {
+            max-width: 70%;
+        }
     }
 }

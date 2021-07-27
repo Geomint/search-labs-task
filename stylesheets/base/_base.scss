@@ -24,3 +24,11 @@ body {
 .js-scroll.scrolled {
     opacity: 1 !important;
 }
+
+a {
+    &:hover {
+        text-decoration: none;
+        color: darken(white, 20%) !important;
+        transition: all 0.2s ease-in-out;
+    }
+}

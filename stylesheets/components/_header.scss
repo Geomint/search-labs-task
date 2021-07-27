@@ -1,40 +1,46 @@
 .header {
     display: flex;
     background-color: $primary-brand-color;
-    padding: 0 40px;
+    padding: 20px 40px;
     position: fixed;
     box-shadow: $default-box-shadow;
     z-index: 1;
+    width: 100%;
 
     &__logo {
+        max-width: 7%;
 
-        &__link {
-
-            img {
-                max-width: 15%;
-            }
+        @include breakpoint(xs) {
+            max-width: 30%;
         }
     }
 
     &__nav {
-        align-items: center;
+        margin-left: auto;
         display: flex;
+        align-items: center;
 
         &__list {
-            display: flex;
             list-style: none;
-
+            display: flex;;
+            
             &__item {
-                padding: 0 20px;
-                border-right: 1px solid white;
-
-                &:last-of-type {
-                    border: none;
-                }
                 a {
                     color: white;
+                    border-right: 1px solid white;
+                    padding: 0 20px;
+                }
+
+                &:last-of-type {
+                    a {
+                        border: none;
+                    }
                 }
             }
+        }
+
+        @include breakpoint(xs) {
+            display: none;
         }
     }
 }

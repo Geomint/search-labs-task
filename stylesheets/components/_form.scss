@@ -4,6 +4,10 @@
     display: block;
     font-size: 1.8rem;
 
+    @include breakpoint(xs) {
+        max-width: 70%;
+    }
+
     &__group {
         label {
             display: block;
