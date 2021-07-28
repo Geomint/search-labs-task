@@ -1,5 +1,5 @@
 # Search Labs - Wren Kitchens Task
-![Landing Page](images/landing-page-multi-device-screenshot.png.jpg)
+![Landing Page](https://github.com/Geomint/search-labs-task/blob/main/images/landing-page-multi-device-screenshot.png?raw=true)
 ## _Design A Landing Page For Wren's New Range: Vogue_
 ## Design specifications
 The feature and element requirements on the page are as follows:
