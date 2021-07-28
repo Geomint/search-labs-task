@@ -1,4 +1,5 @@
 # Search Labs - Wren Kitchens Task
+![Landing Page](images/landing-page-multi-device-screenshot.png.jpg)
 ## _Design A Landing Page For Wren's New Range: Vogue_
 ## Design specifications
 The feature and element requirements on the page are as follows:
