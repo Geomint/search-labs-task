@@ -9,9 +9,17 @@
 
     &__mobile-nav {
         color: white;
-        display: flex;
         align-items: center;
         margin-left: auto;
+        display: none;
+
+        @include breakpoint(xs) {
+            display: flex;
+        }
+
+        p {
+            margin: 0;
+        }
 
         i {
             color: white;

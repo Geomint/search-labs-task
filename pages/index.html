@@ -10,24 +10,43 @@
     <title>Wren Kitchens | Vogue</title>
 </head>
 <body>
+    
+    <!-- mobile-nav -->
+    <nav class="hidden-nav">
+        <div class="hidden-nav__panel">
+            <div class="hidden-nav__panel__inner">
+                <a href="">
+                    <img class="img-responsive" src="../images/wren-kitchens-logo.jpeg" alt="">
+                </a>
+                <p class="hidden-nav__title">Flat Pack Kitchens | Vogue</p>
+                <ul class="hidden-nav__panel__list">
+                    <li class="hidden-nav__panel__list__item"><a class="close-nav" href="#vogue-range">Vogue</a></li>
+                    <li class="hidden-nav__panel__list__item"><a class="close-nav" href="#kitchen-planner">Kitchen Planner</a></li>
+                    <li class="hidden-nav__panel__list__item"><a class="close-nav" href="#competition">Win A Kitchen</a></li>
+                    <li class="hidden-nav__panel__list__item"><a class="close-nav" href="#socials">Get Social</a></li>
+                    <li class="hidden-nav__panel__list__item"><a class="close-nav" href="#story">Follow The Story</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- navbar -->
     <header class="header">
-
         <div class="header__logo">
-            <img class="img-responsive" src="../images/wren-kitchens-logo.jpeg" alt="">
+            <a href="">
+                <img class="img-responsive" src="../images/wren-kitchens-logo.jpeg" alt="">
+            </a>
         </div>
-
         <div class="header__mobile-nav">
-            <a href=""><i class="fas fa-bars"></i></a>
+            <p class="nav-button" href="#"><i class="fas fa-bars"></i></p>
         </div>
-
         <div class="header__nav">
             <ul class="header__nav__list">
-                <li class="header__nav__list__item"><a href="">Vogue</a></li>
-                <li class="header__nav__list__item"><a href="">Case Studies</a></li>
-                <li class="header__nav__list__item"><a href="">Kitchen Planner</a></li>
-                <li class="header__nav__list__item"><a href="">Win A Kitchen</a></li>
-                <li class="header__nav__list__item"><a href="">Get Social</a></li>
+                <li class="header__nav__list__item"><a href="#vogue-range">Vogue</a></li>
+                <li class="header__nav__list__item"><a href="#kitchen-planner">Kitchen Planner</a></li>
+                <li class="header__nav__list__item"><a href="#competition">Win A Kitchen</a></li>
+                <li class="header__nav__list__item"><a href="#socials">Get Social</a></li>
+                <li class="header__nav__list__item"><a href="#story">Follow The Story</a></li>
             </ul>
         </div>
     </header>
@@ -45,7 +64,7 @@
     </div>
 
     <!-- range information -->
-    <div class="container">
+    <div id="vogue-range" class="container">
         <div class="row is-flex">
             <div class="col-md-12">
                 <div class="section">
@@ -87,7 +106,7 @@
             </div>
             <div class="js-scroll col-md-12">
                 <div class="section__cta">
-                    <a class="btn btn__primary" href="">Book A Showroom Appointment</a>
+                    <a target="_blank" class="btn btn__primary" href="https://www.wrenkitchens.com/book-an-appointment">Book A Showroom Appointment</a>
                 </div>
             </div>
         </div>
@@ -98,12 +117,12 @@
         <div class="js-scroll parralax__content">
             <h2 class="h1">Megan's Kitchen</h2>
             <span class="title-highlight">Milano Contour | White | Gloss</span>
-            <a class="btn btn__primary" href="">Read Testimonial</a>
+            <a target="_blank" class="btn btn__primary" href="https://www.wrenkitchens.com/kitchens/wrenovation/contemporary-london-style/445">Read Testimonial</a>
         </div>
     </div>
 
     <!-- kitchen-planner & installation video -->
-    <div class="container">
+    <div id="kitchen-planner" class="container">
         <div class="row">
             <div class="js-scroll col-md-12">
                 <div class="section">
@@ -136,7 +155,7 @@
             </div>
             <div class="js-scroll col-md-12">
                 <div class="section__cta">
-                    <a class="btn btn__primary" href="">Book A Home Visit</a>
+                    <a target="_blank" class="btn btn__primary" href="https://www.wrenkitchens.com/home-measure">Book A Home Visit</a>
                 </div>
             </div>
         </div>
@@ -158,12 +177,12 @@
         <div class="js-scroll parralax__content">
             <h2 class="h1">Andy & Jess's Kitchen</h2>
             <span class="title-highlight">Milano Contour | Pebble | Gloss</span>
-            <a class="btn btn__primary" href="">Read Testimonial</a>
+            <a target="_blank" class="btn btn__primary" href="https://www.wrenkitchens.com/kitchens/wrenovation/urban-edge-in-the-country/405">Read Testimonial</a>
         </div>
     </div>
 
     <!-- win a flat pack kitchen -->
-    <div class="container">
+    <div id="competition" class="container">
         <div class="row">
             <div class="js-scroll col-md-12">
                 <div class="section">
@@ -207,12 +226,12 @@
         <div class="js-scroll parralax__content">
             <h2 class="h1">Rylan's Kitchen</h2>
             <span class="title-highlight">Milano Elements Vertical | Italian Concrete | Matt</span>
-            <a class="btn btn__primary" href="">Read Testimonial</a>
+            <a target="_blank" class="btn btn__primary" href="https://www.wrenkitchens.com/kitchens/wrenovation/industrial-interior/180">Read Testimonial</a>
         </div>
     </div>
 
     <!-- socials section -->
-    <div class="container">
+    <div id="socials" class="container">
         <div class="row">
             <div class="js-scroll col-md-12">
                 <div class="section">
@@ -220,13 +239,30 @@
                         <h2 class="h1">Follow Our Kitchens On Socials!</h2>
                         <p class="title-highlight">#WRENOVATIONS</p>
                         <p class="section__text">Stay up to date with our latest completed projects and discover why our new flat pack range: Vogue is making our customers very happy.</p>
-                        <a class="btn btn__primary" href="">Request A Brochure</a>
+                        <a target="_blank" class="btn btn__primary" href="https://www.wrenkitchens.com/brochure-request">Request A Brochure</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="story" class="strip-highlight">
+        <div class="row">
+            <div class="js-scroll col-md-12">
+                <div class="section">
+                    <div class="section__title">
+                        <h2 class="h1">Keep Up With Our Story Online</h2>
+                        <p class="section__text">Stay up to date with our latest completed projects and discover why our new flat pack range: Vogue is making our customers very happy.</p>
+                        <a target="_blank" class="btn btn__secondary" href="https://www.theguardian.com/lifeandstyle/competition/2013/apr/04/win-5000-pound-kitchen-competition">Competition</a>
+                        <a target="_blank" class="btn btn__secondary" href="https://www.kbbreview.com/22042/news/profits-double-at-company-behind-wren-kitchens/">Wren's Story</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     
+    <div id="overlay" class="overlay"></div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
